@@ -1,6 +1,7 @@
 # EML Attachment Extractor
 
-Briefly describe what your project does.
+Extracts attachments from EML emails. This tool allows extract attachments from EML format emails into a specified output directory. 
+Attachments are decoded and saved with appropriate filenames, increasing clarity and ease of use.
 
 ## Disclaimer
 
@@ -12,11 +13,48 @@ I am not responsible for data loss or any other inconveniences caused by this co
 
 ---
 
-## Installation Procedure
+## Installation and Usage
 
-Describe how to install and run your code. You can include sample code or examples.
+### Prerequisites
+
+Make sure you have Python installed on your machine.
+
+### Installation
+
+1. Clone or download the repository to your local machine.
+
+    ```bash
+    pip install git+https://github.com/Hornad2005/EML-Attachment-Extractor.git
+    ```
+
+2. Open a terminal or command prompt.
+
+3. Navigate to the project directory.
+
+### Usage
+
+1. Update the `output_folder` variable in the script (**line 99**) with the desired output directory. Change `"C:\Users\YOURNAME\Documents\EML\OUTPUT"` to your preferred output folder path.
+
+    ```python
+    output_folder = r"C:\Users\YOURNAME\Documents\EML\OUTPUT"  # Change the OUTPUT FOLDER here. <------------
+    ```
+
+2. Save the changes.
+
+3. Run the script by executing:
+
+    ```bash
+    python extract.py
+    ```
+
+### Note
+
+- Use the Enter key to restart the extraction process or the ESC key to exit the console after completion.
+
+---
 
 ## Screenshots
 
 ![Screenshot 1](./screenshots/screenshot1.png)
+
 ![Screenshot 2](./screenshots/screenshot2.png)
