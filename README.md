@@ -44,7 +44,7 @@ Make sure you have Python installed on your machine.
 3. Run the script by executing:
 
     ```bash
-    python extract.py
+    python EML_Attachment_extractor.py
     ```
 
 ### Note
