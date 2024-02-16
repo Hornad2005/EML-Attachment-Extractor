@@ -1,7 +1,7 @@
 # EML Attachment Extractor
 
 Extracts attachments from EML emails. This tool allows extract attachments from EML format emails into a specified output directory. 
-Attachments are decoded and saved with appropriate filenames, increasing clarity and ease of use.
+Attachments are decoded and saved with appropriate filenames.
 
 ## Disclaimer
 
